@@ -123,5 +123,6 @@ return array (
     'Training_Test' => 0,
     'Training_Test2' => 1,
     'Unit1_FirstModule' => 1,
+    'Unit1_SecondModule' => 1,
   ),
 );

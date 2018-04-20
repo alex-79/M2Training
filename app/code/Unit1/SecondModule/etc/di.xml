@@ -1,0 +1,13 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Unit1\FirstModule\Api\ProductRepositoryInterface" type="Unit1\SecondModule\Model\ProductRepository" />
+    <type name="Unit1\FirstModule\MagentoU\Test">
+        <arguments>
+            <argument name="data" xsi:type="array">
+                <item name="second-array-item-1" xsi:type="string">Second Test Array Item1!!!</item>
+                <item name="second-array-item-2" xsi:type="string">Second Test Array Item2!!!</item>
+                <item name="second-array-item-3" xsi:type="string">Second Test Array Item3!!!</item>
+                <item name="second-array-item-4" xsi:type="string">Second Test Array Item4!!!</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
