@@ -124,7 +124,8 @@ return array (
     'Training_Test2' => 1,
     'Unit1_FirstModule' => 1,
     'Unit1_SecondModule' => 1,
-    'Unit1_TestEvents' => 1,
+    'Unit1_TestEvents' => 0,
     'Unit1_TestPlugin' => 1,
+    'Unit2_Module2' => 1,
   ),
 );
