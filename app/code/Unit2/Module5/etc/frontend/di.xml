@@ -1,0 +1,6 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!--<preference for="Magento\Catalog\Controller\Product\View" type="Unit2\Module5\Controller\Product\View" /> -->
+    <type name="Magento\Catalog\Controller\Product\View">
+        <plugin name="product-view-controller-plugin" type="Unit2\Module5\Plugin\Product\ViewPlugin" sortOrder="10"/>
+    </type>
+</config>

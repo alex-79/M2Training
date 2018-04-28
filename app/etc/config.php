@@ -128,5 +128,6 @@ return array (
     'Unit1_TestPlugin' => 1,
     'Unit2_Module2' => 0,
     'Unit2_Module3' => 1,
+    'Unit2_Module5' => 1,
   ),
 );
