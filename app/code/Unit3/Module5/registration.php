@@ -5,6 +5,6 @@
 */
 \Magento\Framework\Component\ComponentRegistrar::register(
 \Magento\Framework\Component\ComponentRegistrar::MODULE,
-'Unit2_Module2',
+'Unit3_Module5',
 __DIR__
 );

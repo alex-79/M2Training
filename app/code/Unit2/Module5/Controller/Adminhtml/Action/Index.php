@@ -2,15 +2,16 @@
 
 namespace Unit2\Module5\Controller\Adminhtml\Action;
 
-class Index extends \Magento\Framework\App\Action\Action
+class Index extends \Magento\Backend\App\Action
 {
     /**
      * Test action index
      */
     public function execute()
     {
-        //$this->getResponse()->appendBody("HELLO ADMINHTML!!!");
-        $this->_redirect('catalog/category/view/id/3');
+        $this->getResponse()->appendBody("HELLO WORLD");
+        //$this->_redirect('*/*/catalog/category/view/id/3');        
+
     }
 
     /**
@@ -20,7 +21,8 @@ class Index extends \Magento\Framework\App\Action\Action
      */
     protected function _isAllowed()
     {
-        $secret = $this->getRequest()->getParam('secret');
-        return isset($secret) && (int) $secret == 1;
+        //$secret = $this->getRequest()->getParam('secret');
+        //return isset($secret) && (int)$secret==1;
+        return true;
     }
 }
