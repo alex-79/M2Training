@@ -1,9 +1,8 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
-    <router id="standard">
-        <route id="unit3_module6" frontName="unit3module6">
-            <module name="Unit3_Module6" />
+    <router id="admin">
+        <route id="unit2_module5backend" frontName="testbackend">
+            <module name="Unit2_Module5Backend" />
         </route>
     </router>
 </config>
-             
