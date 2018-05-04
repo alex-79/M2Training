@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="2columns-left" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="sidebar.additional">
+                <container name="unit3_module8_sidebar_additional" label="Unit3 Module8 content top" htmlTag="div" htmlClass="newcontent" before="-">               
+                    <block class="Magento\Framework\View\Element\Template" name="unit3.module8.content.top.viewmodel" template="Unit3_Module8::top_block_view_model.phtml" >
+                        <arguments>
+                            <argument name="background_color" xsi:type="string">orange</argument>
+                            <argument name="test_text" xsi:type="string">top content via view model</argument> 
+                            <argument name="viewModel" xsi:type="object">Unit3\Module8\ViewModel\TopBlock</argument>
+                        </arguments>
+                    </block> 
+                </container>
+        </referenceContainer>
+    </body>
+</page>
