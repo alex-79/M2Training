@@ -1,6 +1,18 @@
 <?xml version="1.0"?>
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
+        
+        <referenceBlock name="header.links">
+            <block class="Magento\Framework\View\Element\Template" name="unit3.module8.top.links" template="Unit3_Module8::top_links_view_model.phtml" >
+                <arguments>
+                    <argument name="label" xsi:type="string" translate="true">Unit3-Module8</argument>
+                    <argument name="path" xsi:type="string" translate="true">/training_render/layout/onepage</argument>
+                    <argument name="viewModel" xsi:type="object">Unit3\Module8\ViewModel\TopLink</argument>
+                </arguments>
+            </block>
+        </referenceBlock>
+        
+        
         <referenceContainer name="content.top">
             <container name="unit3_module8_content_top" label="Unit3 Module8 content top" htmlTag="div" htmlClass="newcontent" before="-">
                 <block class="Magento\Framework\View\Element\Template" name="unit3.module8.content.top.block" template="Unit3_Module8::top_block.phtml"/>
