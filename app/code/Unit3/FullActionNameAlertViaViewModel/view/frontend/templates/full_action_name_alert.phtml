@@ -1,0 +1,11 @@
+<?php $viewModel = $block->getData('viewModel'); ?>
+
+<script type="text/x-magento-init">
+  {
+    "*": {
+      "Unit3_FullActionNameAlertViaViewModel/js/full-action-name-alert": {
+        "full_action_name": "<?php echo $viewModel->getFullActionName(); ?>"
+      }
+    }
+  }
+</script>
