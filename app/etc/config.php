@@ -138,5 +138,6 @@ return array (
     'Unit3_Module5' => 0,
     'Unit3_Module6' => 0,
     'Unit3_Module8' => 0,
+    'Unit4_ModuleListRootCategories' => 1,
   ),
 );
